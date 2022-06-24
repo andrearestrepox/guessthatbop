@@ -1,0 +1,135 @@
+body {
+    background-color:white;
+    }
+    
+    .categories_sidebar {
+        position: fixed;
+        background: lightblue;
+        margin-top: 65px;
+        /* margin-bottom:px; */
+        border-radius: 30px;
+        overflow: hidden;
+        
+    }
+    .genre-btn {
+        width: 330px;
+        height: 90px;
+        padding: 0px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 30px;
+        border-radius: 30px;
+        overflow: hidden;
+        background-color: white;
+    }
+   
+    
+    .no-bullet {
+        list-style: none;
+        margin-left: -30px; 
+    }
+    
+    #sidebar_title {
+        margin-left: 105px;
+        margin-bottom: -10px;
+        margin-top: 20px;
+        font-family:'Bebas Neue', cursive;
+        font-size: 40px;
+    }
+    
+    div.container{
+        border-radius: 30px;
+        overflow: hidden;
+        background-color: white;
+        padding-right: 40%;
+        padding-left: 15%;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 300px;
+        float:right;  
+        background-color: lightblue;
+    }
+    
+    /* #circle {
+        background: lightcoral;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: 50;
+        right:45;
+        text-align: center;
+        font-size: 20px;
+        font-family:'Bebas Neue', cursive; */
+    /* } */
+    
+    div .startBtn {
+       float: right;
+       padding-bottom: 30%;
+    }
+    
+    #quizStart {
+        background-color: lightcoral;
+        width:250px;
+         height: 50px; 
+        float: center;
+    } 
+    
+    #lyricDisplayWindow {
+        height: 500px;
+        width: 600px;
+        color: black;
+        /* display: flex; */
+        align-items: top;
+        justify-content: center;
+        color: black;
+        /* background-color:lightcoral; */
+        width: 500px;
+        height: 500px;
+        /* border-radius: 8px;
+        margin-left:0px;
+        font-size: 20px; */
+    }
+    
+    h1 {
+        font-size: 35px;
+        font-family:'Bebas Neue', cursive;
+        /* display: block; */
+
+    }
+    
+    .answersDiv {
+        display:block;
+        /* background-color:; */
+        width: 550px;
+        height:50px;
+        
+
+    }
+
+#scoreStyle{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  color: black;
+  background-color:white;
+  width: 132px;
+  height: 70px;
+  border-radius: 8px;
+  margin-left:750px;
+  font-family:'Bebas Neue', cursive;
+  
+    }
+
+.header{
+    font-family:'Bebas Neue', cursive;
+    font-size: 100px;
+    background-color: navy;
+    color: white;
+}
+
+.possibleAnswers{
+    justify-content: right;
+    /* background-color: red; */
+    display: block;
+    width: 600px;
+}

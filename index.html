@@ -1,0 +1,78 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">GUESS THAT BOP</header>
+    <!-- Sidebar -->
+    <div class="categories_sidebar" style="width: 350px; height:68%;">
+        
+        <h2 id="sidebar_title">CATEGORIES</h2>
+        <ul class="no-bullet">
+            <li>
+                <button type="button" id="todays-btn" class="genre-btn" id="count">Today's Hits</button>
+            </li>
+            <li>
+                <button type="button" id="2000s-btn" class="genre-btn">2000s</button>
+            </li>
+            <li>
+                <button type="button" id="90s-btn" class="genre-btn">90s</button>
+            </li>
+            <li>
+                <button type="button" id="80s-btn" class="genre-btn">80s</button>
+            <li>
+                <button type="button" id="70s-btn" class="genre-btn">70s</button>
+            </li>
+            <li>
+               <!--- <button type="button" id="latin-btn" class="genre-btn">LATIN</button>
+            </li>
+            <li>
+                <button type="button" id="2000s-btn" class="genre-btn">2000s</button>
+            </li>
+            <li>
+                <button type="button" id="90s-btn" class="genre-btn">90s</button>
+            </li>
+            <li>
+                <button type="button" id="80s-btn" class="genre-btn">80s</button>
+            </li>
+            <li>
+                <button type="button" id="70s-btn" class="genre-btn">70s</button>
+            </li> -->
+        </ul>
+
+    </div>
+    <!--end sidebar-->
+
+    <!--start game side of the screen-->
+    <div class="container">
+        <!-- <div id="circle">
+            <div id="count"></div>
+        </div> -->
+        <div id="scoreStyle"><span>Score: </span><span id="scoreTracker">0</span></div>
+            <div id="lyricDisplayWindow">
+                <h1 id="lyricDisplay"></h1>
+                <div class="possibleAnswers"><br>
+                </div>
+                <div><h3></h3></div>
+            </div>
+            <!-- <div class="startBtn">
+                <button onclick="startQuiz()" id="quizStart">Start Quiz</button>
+            </div> -->
+    </div>
+
+    <!--start game side of the screen-->
+
+
+    
+</body>
+<script src="index.js"></script>
+</html>
